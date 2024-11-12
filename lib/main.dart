@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:coincap/models/app_config.dart';
 import 'package:coincap/pages/home_page.dart';
+import 'package:coincap/pages/splashScreen_page.dart';
 import 'package:coincap/services/http_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -44,6 +45,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const HomePage());
+        home: SplashScreen());
   }
 }
